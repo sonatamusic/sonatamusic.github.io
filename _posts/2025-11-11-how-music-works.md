@@ -1,6 +1,9 @@
+2025-11-11-how-music-works.m
+
+
 ---
 layout: post
-title:  "Music Theory"
+title:  "Как работает музыка"
 date:   2025-01-01 09:04:20 +0300
 categories: jekyll update
 ---
@@ -16,10 +19,12 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel la
 ##### Sample heading 5
 ###### Sample heading 6
 ```
+
 ---
 
 Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
 Lists
+
 ---
 
 
@@ -53,4 +58,7 @@ Logo of no style, please! theme[^4]
 
 {: data-content="footnotes"}
 
-[^1]: this is a footnote. It should highlight if you click on the corresponding superscript number. [^2]: hey there, i'm using no style please! [^3]: this is another footnote. [^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere.
+[^1]: this is a footnote. It should highlight if you click on the corresponding superscript number. 
+[^2]: hey there, i'm using no style please! 
+[^3]: this is another footnote. 
+[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere.
