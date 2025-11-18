@@ -8,17 +8,7 @@ date:   2025-01-01 09:04:20 +0300
 categories: jekyll update
 ---
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
-
-```ruby
-
-# Sample heading 1
-## Sample heading 2
-###Sample heading 3
-#### Sample heading 4
-##### Sample heading 5
-###### Sample heading 6
-```
+Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur  
 
 ---
 
