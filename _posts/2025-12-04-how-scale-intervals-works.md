@@ -1,11 +1,3 @@
-2025-12-12=how-music-work.md
-
-
-2025-12-13-
-
-2025-11-11-how-music-works.md
-
-
 ---
 layout: post
 title:  "how scales and interval works"

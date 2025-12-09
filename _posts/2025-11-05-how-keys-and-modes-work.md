@@ -1,23 +1,14 @@
 
-
-
 ---
 layout: post
-title:  "Как работает музыка"
+title:  "[5] How Keys and Modes Work"
 date:   2025-01-01 09:04:20 +0300
 categories: jekyll update
 ---
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur  
-
----
 
 
-
-## What Music REALLY Is, Who Makes It, Where, When, Why
-
-
-## How Keys and Modes REALLY Work
+## How Keys and Modes Work
 
 Art is the opposite of chaos. Art is organized chaos. -IGOR STRAVINSKY
 
