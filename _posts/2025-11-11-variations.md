@@ -1,12 +1,12 @@
 ---
 layout: post 
-slug: guideline
-title:  "How Melody-harmony Work"
+slug: variations
+title:  "Creating Variation"
 category: example2
 ---
 
 
-## # Creating Variation 1: Mutation of Clones
+##  Creating Variation 1: Mutation of Clones
 :
 
 You've come up with a great-sounding seed of a musical idea. But now that you have it, you find that you don't know how to proceed. Maybe it's a few notes or a few bars, but it's definitely not long enough to be a finished piece. You keep listening to the promising idea over and over again, unable to see a direction that will get you from here to a song.
@@ -18,6 +18,7 @@ There are a number of methods for generating many new ideas from the seed of one
 Duplicate the initial idea a number of times (maybe eight or so) so that you have a number of identical copies. Edit the first duplicate until you have made only one meaningful change. You'll ultimately need to use your own taste and intuition to determine what "meaningful" means in the context of this particular idea, but the broad categories to consider are the fundamental parameters of music:
 
 > Sound: changes to the timbre >> Harmony: changes to the chords >> Melody: changes to the foreground line >> Rhythm: changes to the timing of events Form: changes to the structure or distribution of smaller-scale components within the idea
+
 
 You've succeeded when you can listen to the original and the edited duplicate back-to-back and clearly hear (or at least feel) that they're somehow different.
 
