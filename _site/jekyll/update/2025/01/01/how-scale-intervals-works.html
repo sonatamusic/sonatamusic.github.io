@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <title>Как на самом деле работают Scales и Intervals</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Как на самом деле работают Scales и Intervals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="В звоне струн есть геометрия. — МОНТИ ПИФАГОР" />
+<meta property="og:description" content="В звоне струн есть геометрия. — МОНТИ ПИФАГОР" />
+<link rel="canonical" href="http://localhost:4000/jekyll/update/2025/01/01/how-scale-intervals-works.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/update/2025/01/01/how-scale-intervals-works.html" />
+<meta property="og:site_name" content="Sonata Music" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-01-01T09:04:20+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Как на самом деле работают Scales и Intervals" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-01T09:04:20+03:00","datePublished":"2025-01-01T09:04:20+03:00","description":"В звоне струн есть геометрия. — МОНТИ ПИФАГОР","headline":"Как на самом деле работают Scales и Intervals","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2025/01/01/how-scale-intervals-works.html"},"url":"http://localhost:4000/jekyll/update/2025/01/01/how-scale-intervals-works.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sonata Music" /><link rel="shortcut icon" type="image/x-icon" href="" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/">..</a><article>
+  <p class="post-meta">
+    <time datetime="2025-01-01 09:04:20 +0300">2025-01-01</time>
+  </p>
+  
+  <h1>Как на самом деле работают Scales и Intervals</h1>
+
+  <blockquote>
+  <p>В звоне струн есть геометрия. — МОНТИ ПИФАГОР</p>
+</blockquote>
+
+<h2 id="41">4.1</h2>
+
+<hr />
+
+<h2 id="scales-неприятные-и-приятные-для-мозга">Scales: неприятные и приятные для мозга</h2>
+
+<h3 id="411">4.1.1</h3>
+
+<h2 id="что-такое-scale">Что такое Scale?</h2>
+
+<p>Говорят ли люди или поют, они автоматически и без усилий используют <strong>discrete pitches</strong><sup id="fnref:discrete_pitches"><a href="#fn:discrete_pitches" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>, лишь изредка прибегая к скольжению. В отличие от них, наши двоюродные братья-приматы, такие как гиббоны и шимпанзе, либо вокализируют скользящими по высоте звуками, либо вообще без отчетливых <strong>pitches</strong><sup id="fnref:pitch"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> — просто хрюкают и пыхтят.</p>
+
+<p><strong>Discrete pitches</strong><sup id="fnref:discrete_pitches:1"><a href="#fn:discrete_pitches" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> в речи и музыке служат для организации звука таким образом, чтобы мозг мог распознавать паттерны и понимать их. Как только у вас появляется больше одного <strong>discrete tone</strong><sup id="fnref:discrete_tone"><a href="#fn:discrete_tone" class="footnote" rel="footnote" role="doc-noteref">3</a></sup>, у вас может появиться какой-то <strong>scale</strong><sup id="fnref:scale"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>.</p>
+
+<p>Несомненно, люди превратили <strong>discrete tones</strong><sup id="fnref:discrete_tone:1"><a href="#fn:discrete_tone" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> в песни задолго до того, как кто-либо осознал существование музыкальных <strong>scales</strong><sup id="fnref:scale:1"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. В какой-то момент, должно быть, стало ясно, что мелодии, которые люди запоминали, как правило, использовали одни и те же наборы нот: <strong>scales</strong><sup id="fnref:scale:2"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>.</p>
+
+<p><strong>Tune</strong><sup id="fnref:tune"><a href="#fn:tune" class="footnote" rel="footnote" role="doc-noteref">5</a></sup> или <strong>melody</strong><sup id="fnref:melody"><a href="#fn:melody" class="footnote" rel="footnote" role="doc-noteref">6</a></sup> — это связная или отчетливая последовательность пар <strong>tones</strong><sup id="fnref:tone"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, называемых <strong>intervals</strong><sup id="fnref:interval"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>. Ноты <strong>tune</strong><sup id="fnref:tune:1"><a href="#fn:tune" class="footnote" rel="footnote" role="doc-noteref">5</a></sup> (<strong>melody</strong><sup id="fnref:melody:1"><a href="#fn:melody" class="footnote" rel="footnote" role="doc-noteref">6</a></sup>) движутся вверх и вниз по <strong>pitch</strong><sup id="fnref:pitch:1"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, шагая или прыгая от ноты к ноте, используя одни и те же ноты снова и снова, подобно подъему и спуску по одной и той же лестнице.</p>
+
+<p>Это означает, что сами ноты должны происходить из какого-то набора связанных нот разной высоты. Этот набор нот и называется <strong>scale</strong><sup id="fnref:scale:3"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. Но как мозг распознает набор <strong>pitches</strong><sup id="fnref:pitch:2"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> как <strong>scale</strong><sup id="fnref:scale:4"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>?</p>
+
+<h3 id="413">4.1.3</h3>
+
+<h2 id="неприятные-для-мозга-почему-случайные-scales-звучат-плохо">Неприятные для мозга: почему случайные Scales звучат плохо</h2>
+
+<p>Если вы создадите случайный <strong>scale</strong><sup id="fnref:scale:5"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, состоящий из нот, не имеющих естественной, физической связи друг с другом (как вы это сделали, используя случайные меловые отметки на грифе виолончели), а затем попытаетесь сыграть мелодию, используя этот <strong>scale</strong><sup id="fnref:scale:6"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, ваш мозг интерпретирует звук как хаос, а не музыку.</p>
+
+<p>Исследования как детей, так и взрослых показывают, что ваш мозг с рождения запрограммирован отвергать случайные <strong>scales</strong><sup id="fnref:scale:7"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. Младенцы предпочитают неслучайные <strong>scales</strong><sup id="fnref:scale:8"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, как и взрослые. <strong>Frequencies</strong><sup id="fnref:frequency"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup> нот, составляющих <strong>scale</strong><sup id="fnref:scale:9"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, должны иметь какой-то внутренний порядок — упорядоченные отношения друг с другом — иначе ваш мозг интерпретирует звук как шум.</p>
+
+<h3 id="414">4.1.4</h3>
+
+<h2 id="в-поисках-организующего-принципа-который-даст-приятный-для-мозга-scale">В поисках организующего принципа, который даст приятный для мозга Scale</h2>
+
+<p>Вспомните, что происходит, когда вы щипаете струну гитары, которую вы разделили пополам, на трети, четверти, пятые и так далее, приглушая струну над различными ладами. Вы получаете целую серию тихих <strong>overtones</strong><sup id="fnref:overtone"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup> — <strong>overtones</strong><sup id="fnref:overtone:1"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup>, которые звучат иначе, чем <strong>fundamental</strong><sup id="fnref:fundamental"><a href="#fn:fundamental" class="footnote" rel="footnote" role="doc-noteref">11</a></sup>.</p>
+
+<p>Как показывает эксперимент с приглушением струны гитары, каждый <strong>overtone</strong><sup id="fnref:overtone:2"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup> не только звучит по-другому, но и звучит хорошо. Приятно для мозга. Так что было бы разумно предположить, что приятный для мозга <strong>scale</strong><sup id="fnref:scale:10"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> может быть как-то связан с отношениями <strong>overtones</strong><sup id="fnref:overtone:3"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup> друг к другу.</p>
+
+<p>Хм-м. Возможно, отношения между <strong>overtones</strong><sup id="fnref:overtone:4"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup> хранят секрет, который позволит получить полезный <strong>scale</strong><sup id="fnref:scale:11"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, группу <strong>tones</strong><sup id="fnref:tone:1"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> в приятном для мозга упорядоченном отношении.</p>
+
+<p>Время вернуть <strong>overtone series</strong><sup id="fnref:overtone_series"><a href="#fn:overtone_series" class="footnote" rel="footnote" role="doc-noteref">12</a></sup> и взглянуть на отношения <strong>frequency</strong><sup id="fnref:frequency:1"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup> <strong>overtones</strong><sup id="fnref:overtone:5"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup> (Таблица 8 ниже).</p>
+
+<h2 id="таблица-8-fundamental-и-первые-15-overtones-для-middle-c">ТАБЛИЦА 8 Fundamental и первые 15 Overtones для “Middle C”</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Tone</strong><sup id="fnref:tone:2"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> /<br /><strong>Overtone</strong><sup id="fnref:overtone:6"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup></th>
+      <th style="text-align: left">Кратность<br /><strong>Fundamental</strong><sup id="fnref:fundamental:1"><a href="#fn:fundamental" class="footnote" rel="footnote" role="doc-noteref">11</a></sup></th>
+      <th style="text-align: left"><strong>Frequency</strong><sup id="fnref:frequency:2"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup><br />(Hz)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Fundamental</strong><sup id="fnref:fundamental:2"><a href="#fn:fundamental" class="footnote" rel="footnote" role="doc-noteref">11</a></sup></td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">261.6</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1-й <strong>Overtone</strong><sup id="fnref:overtone:7"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup></td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">523.2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">…</td>
+      <td style="text-align: left">…</td>
+      <td style="text-align: left">…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Далее, соотношение второго <strong>overtone</strong><sup id="fnref:overtone:8"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup> к первому. Это 784.8 Hz : 523.2 Hz, соотношение 3:2.</p>
+
+<p>Продолжая так для первых нескольких <strong>overtones</strong><sup id="fnref:overtone:9"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup>, вы получаете список простых соотношений <strong>frequencies</strong><sup id="fnref:frequency:3"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup>, вот такой (Таблица 9):</p>
+
+<h2 id="таблица-9-простые-соотношения-frequencies">ТАБЛИЦА 9 Простые соотношения Frequencies</h2>
+
+<p>2:1 3:2 4:3 5:4 6:5… (и так далее)</p>
+
+<p>Следующий шаг: попробовать простые соотношения <strong>frequencies</strong><sup id="fnref:frequency:4"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup> в качестве организующего принципа для построения <strong>scale</strong><sup id="fnref:scale:12"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>…</p>
+
+<h3 id="415">4.1.5</h3>
+
+<h2 id="использование-простых-frequency-ratios-для-построения-приятного-для-мозга-scale">Использование простых Frequency Ratios для построения приятного для мозга Scale</h2>
+
+<p>Любой стоящий организующий принцип должен работать универсально. То есть, вы должны иметь возможность выбрать любую <strong>frequency</strong><sup id="fnref:frequency:5"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup> в качестве отправной точки для построения <strong>scale</strong><sup id="fnref:scale:13"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>.</p>
+
+<p><strong>СООТНОШЕНИЯ, СООТНОШЕНИЯ, СООТНОШЕНИЯ — НЕ САМИ OVERTONES</strong></p>
+
+<p>Потенциальный источник путаницы: Всегда помните, что важны <strong>ratios of overtone frequencies</strong><sup id="fnref:ratio"><a href="#fn:ratio" class="footnote" rel="footnote" role="doc-noteref">13</a></sup> — не сами <strong>frequencies</strong><sup id="fnref:frequency:6"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup> <strong>overtones</strong><sup id="fnref:overtone:10"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup>!</p>
+
+<ul>
+  <li>Начнем строить <strong>scale</strong><sup id="fnref:scale:14"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> с <strong>tone</strong><sup id="fnref:tone:3"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> <strong>Middle C</strong><sup id="fnref:middle_c"><a href="#fn:middle_c" class="footnote" rel="footnote" role="doc-noteref">14</a></sup>, первого <strong>tone</strong><sup id="fnref:tone:4"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> в Таблице 8 выше, с <strong>frequency</strong><sup id="fnref:frequency:7"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup> 261.6 Hz.</li>
+  <li>Далее, в соответствии с организующим принципом <strong>simple frequency ratios</strong><sup id="fnref:sfr"><a href="#fn:sfr" class="footnote" rel="footnote" role="doc-noteref">15</a></sup>, добавим вторую ноту, полученную из простейшего возможного соотношения, 2:1.</li>
+</ul>
+
+<p><img src="https://i.ibb.co/q3fHBSgS/figure-5.jpg" alt="РИСУНОК 5 Scale из &quot;Middle C&quot; и &quot;C на октаву выше&quot;" />
+<em>(Изображение показывает две ноты C с соотношением 2:1)</em></p>
+
+<ul>
+  <li>Далее добавим <strong>tone</strong><sup id="fnref:tone:5"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, полученный из следующего простейшего соотношения <strong>frequencies</strong><sup id="fnref:frequency:8"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup>, 3:2. Назовем этот <strong>tone</strong><sup id="fnref:tone:6"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> G.</li>
+  <li>Теперь у вас есть <strong>scale</strong><sup id="fnref:scale:15"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> из трех нот.</li>
+</ul>
+
+<p><img src="https://i.ibb.co/LzRwMmxy/figure-6.jpg" alt="xx" />
+<em>(Изображение показывает ноты C, G, C с соотношениями 3:2 и 4:3)</em></p>
+
+<ul>
+  <li>Заметим большой разрыв между <strong>Middle C</strong><sup id="fnref:middle_c:1"><a href="#fn:middle_c" class="footnote" rel="footnote" role="doc-noteref">14</a></sup> и G. К счастью, <strong>tone</strong><sup id="fnref:tone:7"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, полученный из <strong>simple frequency ratio</strong><sup id="fnref:sfr:1"><a href="#fn:sfr" class="footnote" rel="footnote" role="doc-noteref">15</a></sup> 5:4, идеально вписывается между ними. Назовем его E.</li>
+  <li><strong>Scale</strong><sup id="fnref:scale:16"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> вырастает до четырех нот.</li>
+</ul>
+
+<p><img src="https://i.ibb.co/ymrQhh70/figure-7.jpg" alt="xx" />
+<em>(Изображение показывает ноты C, E, G, C с соответствующими соотношениями)</em></p>
+
+<ul>
+  <li>Далее, посмотрим на большой разрыв между G и C на октаву выше. Оказывается, еще один <strong>tone</strong><sup id="fnref:tone:8"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, полученный из <strong>simple frequency ratio</strong><sup id="fnref:sfr:2"><a href="#fn:sfr" class="footnote" rel="footnote" role="doc-noteref">15</a></sup> 5:3, вписывается прямо туда. Этот <strong>tone</strong><sup id="fnref:tone:9"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> — прекрасная и талантливая <strong>Concert A</strong><sup id="fnref:concert_a"><a href="#fn:concert_a" class="footnote" rel="footnote" role="doc-noteref">16</a></sup> (также часто называемая A-440).</li>
+  <li><strong>Scale</strong><sup id="fnref:scale:17"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> вырастает до пяти нот (Рисунок 8):</li>
+</ul>
+
+<h2 id="рисунок-8-scale-c---e---g---a---c">РИСУНОК 8 Scale C - E - G - A - C</h2>
+
+<p><img src="https://i.ibb.co/hwwC2VF/figure-8.jpg" alt="xx" /></p>
+
+<p><em>(Изображение шкалы с нотами)</em></p>
+
+<ul>
+  <li>Вы можете заполнить еще один большой разрыв, между E и G, используя ноту, полученную из <strong>simple frequency ratio</strong><sup id="fnref:sfr:3"><a href="#fn:sfr" class="footnote" rel="footnote" role="doc-noteref">15</a></sup> 4:3. Нота F связана с <strong>Middle C</strong><sup id="fnref:middle_c:2"><a href="#fn:middle_c" class="footnote" rel="footnote" role="doc-noteref">14</a></sup> этим простым соотношением.</li>
+  <li>Теперь <strong>scale</strong><sup id="fnref:scale:18"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> вырос до шести нот.</li>
+</ul>
+
+<h2 id="рисунок-9-scale-c---e---f---g---a---c">РИСУНОК 9 Scale C - E - F - G - A - C</h2>
+
+<p><img src="https://i.ibb.co/x82hxD0z/figure-9.jpg" alt="xx" /></p>
+
+<p><em>(Изображение шкалы с нотами)</em></p>
+
+<ul>
+  <li>Осталась пара больших разрывов. Простейшее <strong>frequency ratio</strong><sup id="fnref:ratio:1"><a href="#fn:ratio" class="footnote" rel="footnote" role="doc-noteref">13</a></sup>, доступное для вставки между C и E — это 9:8, что дает ноту D.</li>
+  <li>Вы можете использовать то же <strong>frequency ratio</strong><sup id="fnref:ratio:2"><a href="#fn:ratio" class="footnote" rel="footnote" role="doc-noteref">13</a></sup> 9:8, чтобы вставить <strong>tone</strong><sup id="fnref:tone:10"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> между A и C. Назовем его B.</li>
+  <li>Теперь у вас 8-нотный <strong>scale</strong><sup id="fnref:scale:19"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>.</li>
+</ul>
+
+<h2 id="рисунок-10-scale-c---d---e---f---g---a---b---c">РИСУНОК 10 Scale C - D - E - F - G - A - B - C</h2>
+
+<p><img src="https://i.ibb.co/hqCZSMT/figure-10.jpg" alt="xx" /></p>
+
+<p><em>(Изображение полной мажорной гаммы)</em></p>
+
+<h3 id="416">4.1.6</h3>
+
+<h2 id="эта-знакомая-гамма-до-ре-ми">ЭТА ЗНАКОМАЯ ГАММА “ДО-РЕ-МИ”</h2>
+
+<p>Если вы европеец, вы узнаете <strong>scale</strong><sup id="fnref:scale:20"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> на Рисунке 10 как гамму «до-ре-ми», используя систему <strong>solmization</strong><sup id="fnref:solmization"><a href="#fn:solmization" class="footnote" rel="footnote" role="doc-noteref">17</a></sup>, которая обозначает ноты слогами вместо буквенных названий: do re mi fa so la ti do.</p>
+
+<p>Вы получаете тот же <strong>scale</strong><sup id="fnref:scale:21"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, играя на белых клавишах пианино, начиная с C.</p>
+
+<h2 id="рисунок-11-до-ре-ми-scale-во-всей-красе">РИСУНОК 11 “До-ре-ми” Scale во всей красе</h2>
+<p><img src="https://i.ibb.co/S7yhwLj4/figure-11.jpg" alt="xx" /></p>
+
+<p><em>(Таблица с нотами C-D-E-F-G-A-B-C и их сольфеджио)</em></p>
+
+<p>Поскольку <strong>scale</strong><sup id="fnref:scale:22"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> имеет восемь нот (включая первую и последнюю), разрыв по <strong>pitch</strong><sup id="fnref:pitch:3"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> между первой и восьмой нотой называется <strong>octave</strong><sup id="fnref:octave"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup>.</p>
+
+<p>В музыке разрыв по <strong>pitch</strong><sup id="fnref:pitch:4"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> между любыми двумя нотами называется <strong>interval</strong><sup id="fnref:interval:1"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>.</p>
+
+<p>Таким образом, отношение по <strong>pitch</strong><sup id="fnref:pitch:5"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> между первой и восьмой нотой — это <strong>interval</strong><sup id="fnref:interval:2"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> <strong>octave</strong><sup id="fnref:octave:1"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup>.</p>
+
+<p>Эта последняя нота <strong>scale</strong><sup id="fnref:scale:23"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> звучит точно так же, как первая, и все же… ну… «выше» по <strong>pitch</strong><sup id="fnref:pitch:6"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</p>
+
+<h3 id="417">4.1.7</h3>
+
+<h2 id="еще-более-неприятные-для-мозга-равноинтервальные-scales">ЕЩЕ БОЛЕЕ НЕПРИЯТНЫЕ ДЛЯ МОЗГА: РАВНОИНТЕРВАЛЬНЫЕ SCALES</h2>
+
+<p>Теперь попробуем третий организующий принцип: полностью регулярный, равномерно распределенный порядок <strong>tones</strong><sup id="fnref:tone:11"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>.</p>
+
+<p>Начнем с <strong>Middle C</strong><sup id="fnref:middle_c:3"><a href="#fn:middle_c" class="footnote" rel="footnote" role="doc-noteref">14</a></sup> и разделим <strong>octave</strong><sup id="fnref:octave:2"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup> на семь равных <strong>intervals</strong><sup id="fnref:interval:3"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, всего восемь нот.</p>
+
+<h2 id="рисунок-12-восьминотный-семи-равноинтервальный-scale">РИСУНОК 12 “Восьминотный, семи-равноинтервальный” Scale</h2>
+<p><img src="https://i.ibb.co/mVC370t7/figure-12.jpg" alt="img" />
+<em>(Таблица показывает C, семь неизвестных нот, и C)</em></p>
+
+<p>Как и случайный <strong>scale</strong><sup id="fnref:scale:24"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, этот <strong>scale</strong><sup id="fnref:scale:25"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> тоже отстойный.</p>
+
+<h3 id="418">4.1.8</h3>
+
+<h2 id="приятные-для-мозга-естественно-отобранная-специализация-на-простые-frequency-ratios">ПРИЯТНЫЕ ДЛЯ МОЗГА: ЕСТЕСТВЕННО ОТОБРАННАЯ СПЕЦИАЛИЗАЦИЯ НА ПРОСТЫЕ FREQUENCY RATIOS</h2>
+
+<p>Существенные результаты исследований показывают, что если вы пытаетесь создать музыку, используя <strong>scales</strong><sup id="fnref:scale:26"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, в которых нет <strong>tones</strong><sup id="fnref:tone:12"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> в отношениях <strong>simple frequency ratios</strong><sup id="fnref:sfr:4"><a href="#fn:sfr" class="footnote" rel="footnote" role="doc-noteref">15</a></sup>, ваш мозг перестает распознавать «музыкальный» звук и слышит хаос.</p>
+
+<p>Младенцы реагируют на изменения в парах <strong>tones</strong><sup id="fnref:tone:13"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> только если <strong>tones</strong><sup id="fnref:tone:14"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> связаны <strong>simple-integer, simple frequency ratios</strong><sup id="fnref:sfr:5"><a href="#fn:sfr" class="footnote" rel="footnote" role="doc-noteref">15</a></sup> — <strong>tones</strong><sup id="fnref:tone:15"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, которые возникают из <strong>harmonic series</strong>[^harmonic_series].</p>
+
+<h3 id="419">4.1.9</h3>
+
+<h2 id="заполнение-последних-пробелов-the-chromatic-scale">ЗАПОЛНЕНИЕ ПОСЛЕДНИХ ПРОБЕЛОВ: THE CHROMATIC SCALE</h2>
+
+<p>Посмотрите на все эти (сравнительно) широкие <strong>intervals</strong><sup id="fnref:interval:4"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> между некоторыми нотами (Рисунок 13 ниже).</p>
+
+<h2 id="рисунок-13-до-ре-ми-scale">РИСУНОК 13 “До-ре-ми” Scale</h2>
+<p><img src="https://i.ibb.co/xt9wWrFY/figure-13.jpg" alt="img" /></p>
+
+<p><em>(Изображение мажорной гаммы)</em></p>
+
+<p>Эти пять <strong>intervals</strong><sup id="fnref:interval:5"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> выглядят подозрительно вдвое шире, чем два меньших <strong>intervals</strong><sup id="fnref:interval:6"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>. Если вы вставите по <strong>tone</strong><sup id="fnref:tone:16"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> в каждый из этих широких промежутков, вы получите 12-равноинтервальный <strong>scale</strong><sup id="fnref:scale:27"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>.</p>
+
+<p>Имя этого 13-нотного (12-полутонового) <strong>scale</strong><sup id="fnref:scale:28"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> — <strong>chromatic scale</strong><sup id="fnref:chromatic_scale"><a href="#fn:chromatic_scale" class="footnote" rel="footnote" role="doc-noteref">19</a></sup>. Пять новых нот, добавленных к «до-ре-ми» <strong>scale</strong><sup id="fnref:scale:29"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, называются <strong>chromatic notes</strong><sup id="fnref:chromatic_notes"><a href="#fn:chromatic_notes" class="footnote" rel="footnote" role="doc-noteref">20</a></sup>.</p>
+
+<h2 id="рисунок-14-до-ре-ми-scale-с-заполненными-пробелами">РИСУНОК 14 “До-ре-ми” Scale с заполненными пробелами</h2>
+<p><em>(Изображение хроматической гаммы)</em></p>
+
+<h3 id="4110">4.1.10</h3>
+
+<h2 id="из-одного--множество-много-scales-из-одного">ИЗ ОДНОГО — МНОЖЕСТВО… МНОГО SCALES ИЗ ОДНОГО</h2>
+
+<p>Самый маленький <strong>interval</strong><sup id="fnref:interval:7"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> в <strong>chromatic scale</strong><sup id="fnref:chromatic_scale:1"><a href="#fn:chromatic_scale" class="footnote" rel="footnote" role="doc-noteref">19</a></sup>, <strong>interval</strong><sup id="fnref:interval:8"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> между любыми двумя соседними нотами, называется <strong>semitone</strong><sup id="fnref:semitone"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup> или <strong>half-step</strong><sup id="fnref:half_step"><a href="#fn:half_step" class="footnote" rel="footnote" role="doc-noteref">22</a></sup>. Таким образом, <strong>interval</strong><sup id="fnref:interval:9"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> <strong>octave</strong><sup id="fnref:octave:3"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup> состоит из 12 <strong>semitone intervals</strong><sup id="fnref:semitone:1"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup>.</p>
+
+<p>Следующий по величине <strong>interval</strong><sup id="fnref:interval:10"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, расстояние, покрываемое двумя <strong>semitones</strong><sup id="fnref:semitone:2"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup>, называется <strong>tone</strong><sup id="fnref:tone:17"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, или <strong>whole tone</strong><sup id="fnref:whole_tone"><a href="#fn:whole_tone" class="footnote" rel="footnote" role="doc-noteref">23</a></sup>, или <strong>step</strong><sup id="fnref:step"><a href="#fn:step" class="footnote" rel="footnote" role="doc-noteref">24</a></sup>.</p>
+
+<p><strong>Chromatic scale</strong><sup id="fnref:chromatic_scale:2"><a href="#fn:chromatic_scale" class="footnote" rel="footnote" role="doc-noteref">19</a></sup> звучит хаотично. Однако вы можете брать ноты из <strong>chromatic scale</strong><sup id="fnref:chromatic_scale:3"><a href="#fn:chromatic_scale" class="footnote" rel="footnote" role="doc-noteref">19</a></sup> для создания множества естественно звучащих музыкальных <strong>scales</strong><sup id="fnref:scale:30"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>.</p>
+
+<p>Название «до-ре-ми» <strong>scale</strong><sup id="fnref:scale:31"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> — <strong>major scale</strong><sup id="fnref:major_scale"><a href="#fn:major_scale" class="footnote" rel="footnote" role="doc-noteref">25</a></sup>. Он состоит из восьми нот, разделенных семью <strong>intervals</strong><sup id="fnref:interval:11"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> из <strong>tones</strong><sup id="fnref:tone:18"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> и <strong>semitones</strong><sup id="fnref:semitone:3"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup> в таком порядке: <strong>tone</strong><sup id="fnref:tone:19"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, <strong>tone</strong><sup id="fnref:tone:20"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, <strong>semitone</strong><sup id="fnref:semitone:4"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup>, <strong>tone</strong><sup id="fnref:tone:21"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, <strong>tone</strong><sup id="fnref:tone:22"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, <strong>tone</strong><sup id="fnref:tone:23"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, <strong>semitone</strong><sup id="fnref:semitone:5"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup>. Этот тип <strong>scale</strong><sup id="fnref:scale:32"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> называется <strong>diatonic scale</strong><sup id="fnref:diatonic_scale"><a href="#fn:diatonic_scale" class="footnote" rel="footnote" role="doc-noteref">26</a></sup>.</p>
+
+<h2 id="42">4.2</h2>
+
+<h2 id="intervals">Intervals</h2>
+
+<h3 id="421">4.2.1</h3>
+
+<h2 id="основные-intervals">ОСНОВНЫЕ INTERVALS</h2>
+
+<ul>
+  <li><strong>Octave</strong><sup id="fnref:octave:4"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup>: Расстояние по <strong>pitch</strong><sup id="fnref:pitch:7"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> между первой и восьмой нотой <strong>major scale</strong><sup id="fnref:major_scale:1"><a href="#fn:major_scale" class="footnote" rel="footnote" role="doc-noteref">25</a></sup>.</li>
+  <li><strong>Semitone</strong><sup id="fnref:semitone:6"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup>: Расстояние по <strong>pitch</strong><sup id="fnref:pitch:8"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> между любыми двумя соседними нотами <strong>chromatic scale</strong><sup id="fnref:chromatic_scale:4"><a href="#fn:chromatic_scale" class="footnote" rel="footnote" role="doc-noteref">19</a></sup>.</li>
+  <li><strong>Tone</strong><sup id="fnref:tone:24"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>: Расстояние по <strong>pitch</strong><sup id="fnref:pitch:9"><a href="#fn:pitch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> в два <strong>semitones</strong><sup id="fnref:semitone:7"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup>.</li>
+</ul>
+
+<h2 id="таблица-11-названия-основных-intervals">ТАБЛИЦА 11 Названия основных Intervals</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Interval</strong><sup id="fnref:interval:12"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup></th>
+      <th style="text-align: left">Количество <strong>semitones</strong><sup id="fnref:semitone:8"><a href="#fn:semitone" class="footnote" rel="footnote" role="doc-noteref">21</a></sup></th>
+      <th style="text-align: left">Пример</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Minor Second</strong><sup id="fnref:min_2nd"><a href="#fn:min_2nd" class="footnote" rel="footnote" role="doc-noteref">27</a></sup></td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">C-C#</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Major Second</strong><sup id="fnref:maj_2nd"><a href="#fn:maj_2nd" class="footnote" rel="footnote" role="doc-noteref">28</a></sup></td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">C-D</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Minor Third</strong><sup id="fnref:min_3rd"><a href="#fn:min_3rd" class="footnote" rel="footnote" role="doc-noteref">29</a></sup></td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">C-Eb</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Major Third</strong><sup id="fnref:maj_3rd"><a href="#fn:maj_3rd" class="footnote" rel="footnote" role="doc-noteref">30</a></sup></td>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">C-E</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Perfect Fourth</strong><sup id="fnref:p4"><a href="#fn:p4" class="footnote" rel="footnote" role="doc-noteref">31</a></sup></td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">C-F</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Augmented Fourth</strong><sup id="fnref:aug4"><a href="#fn:aug4" class="footnote" rel="footnote" role="doc-noteref">32</a></sup></td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">C-F#</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Perfect Fifth</strong><sup id="fnref:p5"><a href="#fn:p5" class="footnote" rel="footnote" role="doc-noteref">33</a></sup></td>
+      <td style="text-align: left">7</td>
+      <td style="text-align: left">C-G</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">…</td>
+      <td style="text-align: left">…</td>
+      <td style="text-align: left">…</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="422">4.2.2</h3>
+
+<h2 id="объяснение-названий-intervals">ОБЪЯСНЕНИЕ НАЗВАНИЙ INTERVALS</h2>
+
+<h2 id="рисунок-15-мажорная-гамма-c-с-названиями-intervals">РИСУНОК 15 Мажорная гамма C с названиями Intervals</h2>
+<p><img src="https://i.ibb.co/Kpk4LQmL/figure-14.jpg" alt="img" /></p>
+
+<p><em>(Изображение показывает интервалы от тоники до каждой ступени мажорной гаммы)</em></p>
+
+<p>Вот как каждый <strong>interval</strong><sup id="fnref:interval:13"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> получает свое название:</p>
+<ul>
+  <li><strong>Major Second</strong><sup id="fnref:maj_2nd:1"><a href="#fn:maj_2nd" class="footnote" rel="footnote" role="doc-noteref">28</a></sup> и <strong>Minor Second</strong><sup id="fnref:min_2nd:1"><a href="#fn:min_2nd" class="footnote" rel="footnote" role="doc-noteref">27</a></sup>: Оба названы в честь второй ноты <strong>major scale</strong><sup id="fnref:major_scale:2"><a href="#fn:major_scale" class="footnote" rel="footnote" role="doc-noteref">25</a></sup>.</li>
+  <li><strong>Perfect Fourth</strong><sup id="fnref:p4:1"><a href="#fn:p4" class="footnote" rel="footnote" role="doc-noteref">31</a></sup>: Назван в честь четвертой ноты. Называется «<strong>perfect</strong><sup id="fnref:perfect"><a href="#fn:perfect" class="footnote" rel="footnote" role="doc-noteref">34</a></sup>», потому что по сравнению с <strong>augmented fourth</strong><sup id="fnref:aug4:1"><a href="#fn:aug4" class="footnote" rel="footnote" role="doc-noteref">32</a></sup> звучит гораздо… «совершеннее».</li>
+  <li><strong>Augmented Fourth</strong><sup id="fnref:aug4:2"><a href="#fn:aug4" class="footnote" rel="footnote" role="doc-noteref">32</a></sup>: Дикий, непокорный <strong>interval</strong><sup id="fnref:interval:14"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>. Этот <strong>interval</strong><sup id="fnref:interval:15"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> имеет несколько других названий. Его часто называют <strong>tritone</strong><sup id="fnref:tritone"><a href="#fn:tritone" class="footnote" rel="footnote" role="doc-noteref">35</a></sup>, потому что он охватывает три целых <strong>tones</strong><sup id="fnref:tone:25"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>. Он также известен как <strong>diminished fifth</strong><sup id="fnref:d5"><a href="#fn:d5" class="footnote" rel="footnote" role="doc-noteref">36</a></sup>, потому что он на полтона короче «<strong>perfect</strong><sup id="fnref:perfect:1"><a href="#fn:perfect" class="footnote" rel="footnote" role="doc-noteref">34</a></sup>» квинты.</li>
+  <li><strong>Perfect Fifth</strong><sup id="fnref:p5:1"><a href="#fn:p5" class="footnote" rel="footnote" role="doc-noteref">33</a></sup>: Назван в честь пятой ноты. Называется «<strong>perfect</strong><sup id="fnref:perfect:2"><a href="#fn:perfect" class="footnote" rel="footnote" role="doc-noteref">34</a></sup>».</li>
+</ul>
+
+<h3 id="423">4.2.3</h3>
+
+<h2 id="perfect-fifths-и-построение-scales-метод-монти-пифагора">PERFECT FIFTHS И ПОСТРОЕНИЕ SCALES: МЕТОД МОНТИ ПИФАГОРА</h2>
+
+<p>Люди обычно приписывают это греческому философу, математику и комику Монти Пифагору. […] <strong>Scales</strong><sup id="fnref:scale:33"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, полученные из простых соотношений <strong>frequencies</strong><sup id="fnref:frequency:9"><a href="#fn:frequency" class="footnote" rel="footnote" role="doc-noteref">9</a></sup>, называются <strong>Pythagorean scales</strong><sup id="fnref:pythagorean_scale"><a href="#fn:pythagorean_scale" class="footnote" rel="footnote" role="doc-noteref">37</a></sup>. <strong>Major diatonic scale</strong><sup id="fnref:diatonic_scale:1"><a href="#fn:diatonic_scale" class="footnote" rel="footnote" role="doc-noteref">26</a></sup> — это <strong>Pythagorean scale</strong><sup id="fnref:pythagorean_scale:1"><a href="#fn:pythagorean_scale" class="footnote" rel="footnote" role="doc-noteref">37</a></sup>.</p>
+
+<h3 id="424">4.2.4</h3>
+
+<h2 id="the-pythagorean-comma">THE PYTHAGOREAN COMMA</h2>
+
+<p>Соотношение 1.0136:1 называется <strong>Pythagorean comma</strong><sup id="fnref:pythagorean_comma"><a href="#fn:pythagorean_comma" class="footnote" rel="footnote" role="doc-noteref">38</a></sup>.</p>
+
+<h3 id="426">4.2.6</h3>
+
+<h2 id="consonance-и-dissonance">CONSONANCE И DISSONANCE</h2>
+
+<p>Некоторые <strong>intervals</strong><sup id="fnref:interval:16"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> звучат стабильно, сбалансированно, в покое. Это называется <strong>consonance</strong><sup id="fnref:consonance"><a href="#fn:consonance" class="footnote" rel="footnote" role="doc-noteref">39</a></sup>.
+Другие звучат нестабильно, несбалансированно, беспокойно. Это <strong>dissonance</strong><sup id="fnref:dissonance"><a href="#fn:dissonance" class="footnote" rel="footnote" role="doc-noteref">40</a></sup>.</p>
+
+<h2 id="таблица-14-консонирующие-и-диссонирующие-intervals">ТАБЛИЦА 14 Консонирующие и диссонирующие Intervals</h2>
+<p><em>(Таблица классифицирует интервалы)</em></p>
+
+<h3 id="427">4.2.7</h3>
+
+<h2 id="dissonance-странные-frequency-ratios">DISSONANCE: СТРАННЫЕ FREQUENCY RATIOS</h2>
+
+<p>Что заставляет <strong>intervals</strong><sup id="fnref:interval:17"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> звучать консонантно или диссонантно? Посмотрите на <strong>ratios of frequencies</strong><sup id="fnref:ratio:3"><a href="#fn:ratio" class="footnote" rel="footnote" role="doc-noteref">13</a></sup>, которые соответствуют <strong>consonant</strong><sup id="fnref:consonance:1"><a href="#fn:consonance" class="footnote" rel="footnote" role="doc-noteref">39</a></sup> и <strong>dissonant intervals</strong><sup id="fnref:dissonance:1"><a href="#fn:dissonance" class="footnote" rel="footnote" role="doc-noteref">40</a></sup> (Таблица 15).</p>
+
+<h2 id="таблица-15-frequency-ratios-интервалов">ТАБЛИЦА 15 Frequency Ratios интервалов</h2>
+
+<p><img src="https://i.ibb.co/zhwZ4ph3/figure-15.jpg" alt="img" />
+<em>(Таблица показывает соотношения для каждого интервала)</em></p>
+
+<h3 id="429">4.2.9</h3>
+
+<h2 id="complementary-intervals">COMPLEMENTARY INTERVALS</h2>
+
+<p>Любые два <strong>intervals</strong><sup id="fnref:interval:18"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, которые в сумме дают <strong>octave</strong><sup id="fnref:octave:5"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup>, называются <strong>complementary intervals</strong><sup id="fnref:complementary_intervals"><a href="#fn:complementary_intervals" class="footnote" rel="footnote" role="doc-noteref">41</a></sup>.</p>
+
+<h3 id="4210">4.2.10</h3>
+<p><img src="https://i.ibb.co/Q74F6RHq/figure-16.jpg" alt="img" /></p>
+<h2 id="почему-intervals--это-настоящие-музыкальные-единицы">ПОЧЕМУ INTERVALS — ЭТО НАСТОЯЩИЕ МУЗЫКАЛЬНЫЕ ЕДИНИЦЫ</h2>
+
+<p>Когда звучат два <strong>tones</strong><sup id="fnref:tone:26"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>, либо вместе, либо последовательно, формируется отношение. Ваш мозг анализирует это отношение.</p>
+
+<p>Будет ли <strong>tune</strong><sup id="fnref:tune:2"><a href="#fn:tune" class="footnote" rel="footnote" role="doc-noteref">5</a></sup> интересным или скучным, зависит от расположения <strong>intervals</strong><sup id="fnref:interval:19"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, а не отдельных нот. <strong>Intervals</strong><sup id="fnref:interval:20"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> происходят из <strong>scales</strong><sup id="fnref:scale:34"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. А <strong>scales</strong><sup id="fnref:scale:35"><a href="#fn:scale" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> — из <strong>overtones</strong><sup id="fnref:overtone:11"><a href="#fn:overtone" class="footnote" rel="footnote" role="doc-noteref">10</a></sup>.</p>
+
+<h2 id="рисунок-17-путь-к-tunes-и-chords">РИСУНОК 17 Путь к Tunes и Chords</h2>
+
+<p><img src="https://i.ibb.co/2Hkj5qH/figure-17.jpg" alt="img" />
+<em>(Диаграмма: Overtones -&gt; Simple Ratios -&gt; Intervals -&gt; Scales, Chords, Tunes)</em></p>
+
+<h2 id="43">4.3</h2>
+
+<h2 id="динамика-intervals">Динамика Intervals</h2>
+
+<h3 id="431">4.3.1</h3>
+
+<h2 id="музыкальная-драма">МУЗЫКАЛЬНАЯ ДРАМА</h2>
+
+<p>Эти отношения между нотами, порывы и силы, которые ваш мозг воспринимает, когда слышит <strong>tune</strong><sup id="fnref:tune:3"><a href="#fn:tune" class="footnote" rel="footnote" role="doc-noteref">5</a></sup>, называются <strong>interval dynamics</strong><sup id="fnref:interval_dynamics"><a href="#fn:interval_dynamics" class="footnote" rel="footnote" role="doc-noteref">42</a></sup>.
+<a href="https://ibb.co/hFSR1YwW"><img src="https://i.ibb.co/RTqp4jd0/2025-12-15-11-23-14.png" alt="2025-12-15-11-23-14" border="0" /></a></p>
+<h3 id="432">4.3.2</h3>
+
+<h2 id="scale-degrees">SCALE DEGREES</h2>
+
+<p>Когда вы нумеруете каждую ноту <strong>diatonic scale</strong><sup id="fnref:diatonic_scale:2"><a href="#fn:diatonic_scale" class="footnote" rel="footnote" role="doc-noteref">26</a></sup>, пронумерованные ноты называются <strong>scale degrees</strong><sup id="fnref:scale_degrees"><a href="#fn:scale_degrees" class="footnote" rel="footnote" role="doc-noteref">43</a></sup>.</p>
+
+<h2 id="рисунок-18-major-scale-с-указанием-scale-degrees">РИСУНОК 18 Major Scale с указанием Scale Degrees</h2>
+<p><img src="https://i.ibb.co/7tHqHcxw/figure-18.jpg" alt="img" />
+<em>(Изображение мажорной гаммы с цифрами 1-8)</em></p>
+
+<h2 id="таблица-19-названия-scale-degrees">ТАБЛИЦА 19 Названия Scale Degrees</h2>
+
+<p><img src="https://i.ibb.co/qFVnJYNX/figure-19.jpg" alt="img" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">1</th>
+      <th style="text-align: left"><strong>Tonic</strong><sup id="fnref:tonic"><a href="#fn:tonic" class="footnote" rel="footnote" role="doc-noteref">44</a></sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Supertonic</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Mediant</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Subdominant</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left"><strong>Dominant</strong><sup id="fnref:dominant"><a href="#fn:dominant" class="footnote" rel="footnote" role="doc-noteref">45</a></sup></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">Submediant</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">7</td>
+      <td style="text-align: left"><strong>Leading Tone</strong><sup id="fnref:leading_tone"><a href="#fn:leading_tone" class="footnote" rel="footnote" role="doc-noteref">46</a></sup></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1 (8)</td>
+      <td style="text-align: left"><strong>Tonic</strong><sup id="fnref:tonic:1"><a href="#fn:tonic" class="footnote" rel="footnote" role="doc-noteref">44</a></sup></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="433">4.3.3</h3>
+
+<h2 id="кривизна-major-scale">КРИВИЗНА MAJOR SCALE</h2>
+
+<h2 id="рисунок-19-динамика-intervals-уход-а-затем-возвращение">РИСУНОК 19 Динамика Intervals: “Уход, а затем возвращение”</h2>
+<p><em>(Изображение показывает дугу от 1 до 5 и обратно к 8)</em></p>
+
+<h3 id="434">4.3.4</h3>
+
+<h2 id="динамика-intervals-изогнутые-стрелы-в-вашем-мозге">ДИНАМИКА INTERVALS: ИЗОГНУТЫЕ СТРЕЛЫ В ВАШЕМ МОЗГЕ</h2>
+
+<p>Термин <strong>interval dynamics</strong><sup id="fnref:interval_dynamics:1"><a href="#fn:interval_dynamics" class="footnote" rel="footnote" role="doc-noteref">42</a></sup> относится к тому факту, что, как только ваш мозг понимает, какая нота является <strong>tonic note</strong><sup id="fnref:tonic:2"><a href="#fn:tonic" class="footnote" rel="footnote" role="doc-noteref">44</a></sup>, он воспринимает последовательность <strong>tones</strong><sup id="fnref:tone:27"><a href="#fn:tone" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> как энергичных, динамичных игроков, движущихся в силовых полях.</p>
+
+<h2 id="рисунок-20-динамика-intervals-как-ваш-мозг-на-самом-деле-слышит-major-scale">РИСУНОК 20 Динамика Intervals: как ваш мозг на самом деле слышит Major Scale</h2>
+<p><em>(Изображение мажорной гаммы со стрелками, показывающими тяготение)</em></p>
+
+<h2 id="таблица-20-динамика-intervals-major-scale">ТАБЛИЦА 20 Динамика Intervals, Major Scale</h2>
+
+<p><img src="https://i.ibb.co/C3qV9WSq/figure-20.jpg" alt="img" />
+<em>(Таблица объясняет тяготения каждой ступени)</em></p>
+
+<h3 id="436">4.3.6</h3>
+
+<h2 id="динамика-intervals-изогнутые-стрелы-и-контекст">ДИНАМИКА INTERVALS: ИЗОГНУТЫЕ СТРЕЛЫ И КОНТЕКСТ</h2>
+
+<p>Как только <strong>tune</strong><sup id="fnref:tune:4"><a href="#fn:tune" class="footnote" rel="footnote" role="doc-noteref">5</a></sup> начинается, ваш мозг начинает выяснять, какая нота является <strong>tonic</strong><sup id="fnref:tonic:3"><a href="#fn:tonic" class="footnote" rel="footnote" role="doc-noteref">44</a></sup> — <strong>tonal centre</strong><sup id="fnref:tonal_centre"><a href="#fn:tonal_centre" class="footnote" rel="footnote" role="doc-noteref">47</a></sup>. Все <strong>frequency ratios</strong><sup id="fnref:ratio:4"><a href="#fn:ratio" class="footnote" rel="footnote" role="doc-noteref">13</a></sup>, определяющие другие <strong>intervals</strong><sup id="fnref:interval:21"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup>, зависят от <strong>tonal centre</strong><sup id="fnref:tonal_centre:1"><a href="#fn:tonal_centre" class="footnote" rel="footnote" role="doc-noteref">47</a></sup> для контекста.</p>
+
+<h2 id="рисунок-21-динамика-intervals-гравитационная-сила-tonic-note">РИСУНОК 21 Динамика Intervals: “Гравитационная сила” Tonic Note</h2>
+
+<p><em>(Изображение показывает ступени, вращающиеся вокруг тоники)</em></p>
+
+<h3 id="438">4.3.8</h3>
+
+<h2 id="тираническая-octave">ТИРАНИЧЕСКАЯ OCTAVE</h2>
+
+<p>В музыке вы не можете вырваться из тиранической <strong>octave</strong><sup id="fnref:octave:6"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup>. Неприводимая простота <strong>frequency ratio</strong><sup id="fnref:ratio:5"><a href="#fn:ratio" class="footnote" rel="footnote" role="doc-noteref">13</a></sup> 2:1 (<strong>octave</strong><sup id="fnref:octave:7"><a href="#fn:octave" class="footnote" rel="footnote" role="doc-noteref">18</a></sup>) вызывает ощущение баланса или покоя.</p>
+
+<h2 id="44">4.4</h2>
+
+<h2 id="эмоциональные-эффекты-intervals">Эмоциональные эффекты Intervals</h2>
+
+<p><img src="https://i.ibb.co/ksJ8wZsc/figure-21.jpg" alt="img" /></p>
+
+<h2 id="таблица-21-эмоциональные-эффекты-intervals">ТАБЛИЦА 21 Эмоциональные эффекты Intervals</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Interval</strong><sup id="fnref:interval:22"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup> или тип <strong>Interval</strong><sup id="fnref:interval:23"><a href="#fn:interval" class="footnote" rel="footnote" role="doc-noteref">8</a></sup></th>
+      <th style="text-align: left">Связанные эмоции</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Consonant intervals</strong><sup id="fnref:consonance:2"><a href="#fn:consonance" class="footnote" rel="footnote" role="doc-noteref">39</a></sup></td>
+      <td style="text-align: left">Приятность, в целом положительная эмоциональная валентность</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Dissonant intervals</strong><sup id="fnref:dissonance:2"><a href="#fn:dissonance" class="footnote" rel="footnote" role="doc-noteref">40</a></sup></td>
+      <td style="text-align: left">В целом отрицательная эмоциональная валентность, сила, активность</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Major intervals</strong><sup id="fnref:major_interval"><a href="#fn:major_interval" class="footnote" rel="footnote" role="doc-noteref">48</a></sup></td>
+      <td style="text-align: left">Яркость, сила</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Minor intervals</strong><sup id="fnref:minor_interval"><a href="#fn:minor_interval" class="footnote" rel="footnote" role="doc-noteref">49</a></sup></td>
+      <td style="text-align: left">Тусклость, слабость</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Tritone</strong><sup id="fnref:tritone:1"><a href="#fn:tritone" class="footnote" rel="footnote" role="doc-noteref">35</a></sup></td>
+      <td style="text-align: left">Насилие, опасность, напряжение, дьявольщина</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<h3 id="сноски-терминология">Сноски (Терминология)</h3>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:discrete_pitches">
+      <p><strong>Discrete pitches</strong> (Дискретные высоты тона) — отдельные, четко различимые ступени высоты звука (ноты). <a href="#fnref:discrete_pitches" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:discrete_pitches:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:pitch">
+      <p><strong>Pitch</strong> (Высота тона) — воспринимаемое качество звука, определяемое его основной частотой. <a href="#fnref:pitch" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:pitch:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:pitch:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:pitch:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:pitch:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:pitch:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:pitch:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:pitch:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a> <a href="#fnref:pitch:8" class="reversefootnote" role="doc-backlink">&#8617;<sup>9</sup></a> <a href="#fnref:pitch:9" class="reversefootnote" role="doc-backlink">&#8617;<sup>10</sup></a></p>
+    </li>
+    <li id="fn:discrete_tone">
+      <p><strong>Discrete tone</strong> (Дискретный тон) — то же, что и <strong>discrete pitch</strong>. <a href="#fnref:discrete_tone" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:discrete_tone:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:scale">
+      <p><strong>Scale</strong> (Гамма/Звукоряд) — последовательность музыкальных нот, расположенных по высоте в восходящем или нисходящем порядке. <a href="#fnref:scale" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:scale:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:scale:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:scale:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:scale:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:scale:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:scale:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:scale:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a> <a href="#fnref:scale:8" class="reversefootnote" role="doc-backlink">&#8617;<sup>9</sup></a> <a href="#fnref:scale:9" class="reversefootnote" role="doc-backlink">&#8617;<sup>10</sup></a> <a href="#fnref:scale:10" class="reversefootnote" role="doc-backlink">&#8617;<sup>11</sup></a> <a href="#fnref:scale:11" class="reversefootnote" role="doc-backlink">&#8617;<sup>12</sup></a> <a href="#fnref:scale:12" class="reversefootnote" role="doc-backlink">&#8617;<sup>13</sup></a> <a href="#fnref:scale:13" class="reversefootnote" role="doc-backlink">&#8617;<sup>14</sup></a> <a href="#fnref:scale:14" class="reversefootnote" role="doc-backlink">&#8617;<sup>15</sup></a> <a href="#fnref:scale:15" class="reversefootnote" role="doc-backlink">&#8617;<sup>16</sup></a> <a href="#fnref:scale:16" class="reversefootnote" role="doc-backlink">&#8617;<sup>17</sup></a> <a href="#fnref:scale:17" class="reversefootnote" role="doc-backlink">&#8617;<sup>18</sup></a> <a href="#fnref:scale:18" class="reversefootnote" role="doc-backlink">&#8617;<sup>19</sup></a> <a href="#fnref:scale:19" class="reversefootnote" role="doc-backlink">&#8617;<sup>20</sup></a> <a href="#fnref:scale:20" class="reversefootnote" role="doc-backlink">&#8617;<sup>21</sup></a> <a href="#fnref:scale:21" class="reversefootnote" role="doc-backlink">&#8617;<sup>22</sup></a> <a href="#fnref:scale:22" class="reversefootnote" role="doc-backlink">&#8617;<sup>23</sup></a> <a href="#fnref:scale:23" class="reversefootnote" role="doc-backlink">&#8617;<sup>24</sup></a> <a href="#fnref:scale:24" class="reversefootnote" role="doc-backlink">&#8617;<sup>25</sup></a> <a href="#fnref:scale:25" class="reversefootnote" role="doc-backlink">&#8617;<sup>26</sup></a> <a href="#fnref:scale:26" class="reversefootnote" role="doc-backlink">&#8617;<sup>27</sup></a> <a href="#fnref:scale:27" class="reversefootnote" role="doc-backlink">&#8617;<sup>28</sup></a> <a href="#fnref:scale:28" class="reversefootnote" role="doc-backlink">&#8617;<sup>29</sup></a> <a href="#fnref:scale:29" class="reversefootnote" role="doc-backlink">&#8617;<sup>30</sup></a> <a href="#fnref:scale:30" class="reversefootnote" role="doc-backlink">&#8617;<sup>31</sup></a> <a href="#fnref:scale:31" class="reversefootnote" role="doc-backlink">&#8617;<sup>32</sup></a> <a href="#fnref:scale:32" class="reversefootnote" role="doc-backlink">&#8617;<sup>33</sup></a> <a href="#fnref:scale:33" class="reversefootnote" role="doc-backlink">&#8617;<sup>34</sup></a> <a href="#fnref:scale:34" class="reversefootnote" role="doc-backlink">&#8617;<sup>35</sup></a> <a href="#fnref:scale:35" class="reversefootnote" role="doc-backlink">&#8617;<sup>36</sup></a></p>
+    </li>
+    <li id="fn:tune">
+      <p><strong>Tune</strong> (Мелодия/Напев) — простая, легко запоминающаяся мелодия. <a href="#fnref:tune" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:tune:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:tune:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:tune:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:tune:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a></p>
+    </li>
+    <li id="fn:melody">
+      <p><strong>Melody</strong> (Мелодия) — линейная последовательность нот, воспринимаемая как единое целое. <a href="#fnref:melody" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:melody:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:tone">
+      <p><strong>Tone</strong> (Тон/Звук) — звук определенной высоты; также используется для обозначения интервала в два полутона. <a href="#fnref:tone" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:tone:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:tone:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:tone:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:tone:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:tone:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:tone:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:tone:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a> <a href="#fnref:tone:8" class="reversefootnote" role="doc-backlink">&#8617;<sup>9</sup></a> <a href="#fnref:tone:9" class="reversefootnote" role="doc-backlink">&#8617;<sup>10</sup></a> <a href="#fnref:tone:10" class="reversefootnote" role="doc-backlink">&#8617;<sup>11</sup></a> <a href="#fnref:tone:11" class="reversefootnote" role="doc-backlink">&#8617;<sup>12</sup></a> <a href="#fnref:tone:12" class="reversefootnote" role="doc-backlink">&#8617;<sup>13</sup></a> <a href="#fnref:tone:13" class="reversefootnote" role="doc-backlink">&#8617;<sup>14</sup></a> <a href="#fnref:tone:14" class="reversefootnote" role="doc-backlink">&#8617;<sup>15</sup></a> <a href="#fnref:tone:15" class="reversefootnote" role="doc-backlink">&#8617;<sup>16</sup></a> <a href="#fnref:tone:16" class="reversefootnote" role="doc-backlink">&#8617;<sup>17</sup></a> <a href="#fnref:tone:17" class="reversefootnote" role="doc-backlink">&#8617;<sup>18</sup></a> <a href="#fnref:tone:18" class="reversefootnote" role="doc-backlink">&#8617;<sup>19</sup></a> <a href="#fnref:tone:19" class="reversefootnote" role="doc-backlink">&#8617;<sup>20</sup></a> <a href="#fnref:tone:20" class="reversefootnote" role="doc-backlink">&#8617;<sup>21</sup></a> <a href="#fnref:tone:21" class="reversefootnote" role="doc-backlink">&#8617;<sup>22</sup></a> <a href="#fnref:tone:22" class="reversefootnote" role="doc-backlink">&#8617;<sup>23</sup></a> <a href="#fnref:tone:23" class="reversefootnote" role="doc-backlink">&#8617;<sup>24</sup></a> <a href="#fnref:tone:24" class="reversefootnote" role="doc-backlink">&#8617;<sup>25</sup></a> <a href="#fnref:tone:25" class="reversefootnote" role="doc-backlink">&#8617;<sup>26</sup></a> <a href="#fnref:tone:26" class="reversefootnote" role="doc-backlink">&#8617;<sup>27</sup></a> <a href="#fnref:tone:27" class="reversefootnote" role="doc-backlink">&#8617;<sup>28</sup></a></p>
+    </li>
+    <li id="fn:interval">
+      <p><strong>Interval</strong> (Интервал) — разница в высоте между двумя звуками; “расстояние” между нотами. <a href="#fnref:interval" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:interval:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:interval:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:interval:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:interval:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:interval:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:interval:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:interval:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a> <a href="#fnref:interval:8" class="reversefootnote" role="doc-backlink">&#8617;<sup>9</sup></a> <a href="#fnref:interval:9" class="reversefootnote" role="doc-backlink">&#8617;<sup>10</sup></a> <a href="#fnref:interval:10" class="reversefootnote" role="doc-backlink">&#8617;<sup>11</sup></a> <a href="#fnref:interval:11" class="reversefootnote" role="doc-backlink">&#8617;<sup>12</sup></a> <a href="#fnref:interval:12" class="reversefootnote" role="doc-backlink">&#8617;<sup>13</sup></a> <a href="#fnref:interval:13" class="reversefootnote" role="doc-backlink">&#8617;<sup>14</sup></a> <a href="#fnref:interval:14" class="reversefootnote" role="doc-backlink">&#8617;<sup>15</sup></a> <a href="#fnref:interval:15" class="reversefootnote" role="doc-backlink">&#8617;<sup>16</sup></a> <a href="#fnref:interval:16" class="reversefootnote" role="doc-backlink">&#8617;<sup>17</sup></a> <a href="#fnref:interval:17" class="reversefootnote" role="doc-backlink">&#8617;<sup>18</sup></a> <a href="#fnref:interval:18" class="reversefootnote" role="doc-backlink">&#8617;<sup>19</sup></a> <a href="#fnref:interval:19" class="reversefootnote" role="doc-backlink">&#8617;<sup>20</sup></a> <a href="#fnref:interval:20" class="reversefootnote" role="doc-backlink">&#8617;<sup>21</sup></a> <a href="#fnref:interval:21" class="reversefootnote" role="doc-backlink">&#8617;<sup>22</sup></a> <a href="#fnref:interval:22" class="reversefootnote" role="doc-backlink">&#8617;<sup>23</sup></a> <a href="#fnref:interval:23" class="reversefootnote" role="doc-backlink">&#8617;<sup>24</sup></a></p>
+    </li>
+    <li id="fn:frequency">
+      <p><strong>Frequency</strong> (Частота) — количество колебаний в секунду (Гц). <a href="#fnref:frequency" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:frequency:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:frequency:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:frequency:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:frequency:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:frequency:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:frequency:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:frequency:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a> <a href="#fnref:frequency:8" class="reversefootnote" role="doc-backlink">&#8617;<sup>9</sup></a> <a href="#fnref:frequency:9" class="reversefootnote" role="doc-backlink">&#8617;<sup>10</sup></a></p>
+    </li>
+    <li id="fn:overtone">
+      <p><strong>Overtone</strong> (Обертон) — частичный тон, звучащий выше основного тона, частота которого кратна основной. <a href="#fnref:overtone" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:overtone:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:overtone:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:overtone:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:overtone:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:overtone:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:overtone:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:overtone:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a> <a href="#fnref:overtone:8" class="reversefootnote" role="doc-backlink">&#8617;<sup>9</sup></a> <a href="#fnref:overtone:9" class="reversefootnote" role="doc-backlink">&#8617;<sup>10</sup></a> <a href="#fnref:overtone:10" class="reversefootnote" role="doc-backlink">&#8617;<sup>11</sup></a> <a href="#fnref:overtone:11" class="reversefootnote" role="doc-backlink">&#8617;<sup>12</sup></a></p>
+    </li>
+    <li id="fn:fundamental">
+      <p><strong>Fundamental</strong> (Основной тон) — самая низкая и обычно самая громкая частота в составе сложного звука. <a href="#fnref:fundamental" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:fundamental:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:fundamental:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:overtone_series">
+      <p><strong>Overtone series</strong> (Обертоновый ряд/Натуральный звукоряд) — последовательность частот (основной тон и его обертоны). <a href="#fnref:overtone_series" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:ratio">
+      <p><strong>Frequency ratio</strong> (Соотношение частот) — числовое отношение частот двух звуков, определяющее качество интервала. <a href="#fnref:ratio" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:ratio:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:ratio:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:ratio:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:ratio:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:ratio:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a></p>
+    </li>
+    <li id="fn:middle_c">
+      <p><strong>Middle C</strong> (До первой октавы) — нота «до» в середине фортепианной клавиатуры. <a href="#fnref:middle_c" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:middle_c:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:middle_c:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:middle_c:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a></p>
+    </li>
+    <li id="fn:sfr">
+      <p><strong>Simple Frequency Ratios</strong> (Простые соотношения частот) — математические отношения между частотами нот (2:1, 3:2), воспринимаемые как консонанс. <a href="#fnref:sfr" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:sfr:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:sfr:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:sfr:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:sfr:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:sfr:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a></p>
+    </li>
+    <li id="fn:concert_a">
+      <p><strong>Concert A</strong> (Концертный Ля) — эталонная частота ноты Ля первой октавы (440 Гц). <a href="#fnref:concert_a" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:solmization">
+      <p><strong>Solmization</strong> (Сольмизация) — система именования ступеней звукоряда слогами (до, ре, ми…). <a href="#fnref:solmization" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:octave">
+      <p><strong>Octave</strong> (Октава) — интервал между двумя звуками с соотношением частот 2:1. <a href="#fnref:octave" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:octave:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:octave:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:octave:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:octave:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:octave:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:octave:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:octave:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a></p>
+    </li>
+    <li id="fn:chromatic_scale">
+      <p><strong>Chromatic scale</strong> (Хроматическая гамма) — звукоряд из 12 полутонов. <a href="#fnref:chromatic_scale" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:chromatic_scale:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:chromatic_scale:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:chromatic_scale:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:chromatic_scale:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a></p>
+    </li>
+    <li id="fn:chromatic_notes">
+      <p><strong>Chromatic notes</strong> (Хроматические ноты) — ноты, не входящие в основной диатонический звукоряд тональности. <a href="#fnref:chromatic_notes" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:semitone">
+      <p><strong>Semitone</strong> (Полутон) — наименьший интервал в западной музыке (1/12 октавы). <a href="#fnref:semitone" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:semitone:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:semitone:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:semitone:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a> <a href="#fnref:semitone:4" class="reversefootnote" role="doc-backlink">&#8617;<sup>5</sup></a> <a href="#fnref:semitone:5" class="reversefootnote" role="doc-backlink">&#8617;<sup>6</sup></a> <a href="#fnref:semitone:6" class="reversefootnote" role="doc-backlink">&#8617;<sup>7</sup></a> <a href="#fnref:semitone:7" class="reversefootnote" role="doc-backlink">&#8617;<sup>8</sup></a> <a href="#fnref:semitone:8" class="reversefootnote" role="doc-backlink">&#8617;<sup>9</sup></a></p>
+    </li>
+    <li id="fn:half_step">
+      <p><strong>Half-step</strong> (Полутон) — то же, что и <strong>semitone</strong>. <a href="#fnref:half_step" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:whole_tone">
+      <p><strong>Whole tone</strong> (Целый тон) — интервал, равный двум полутонам. <a href="#fnref:whole_tone" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:step">
+      <p><strong>Step</strong> (Шаг/Тон) — то же, что и <strong>whole tone</strong>. <a href="#fnref:step" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:major_scale">
+      <p><strong>Major scale</strong> (Мажорная гамма) — основной диатонический лад мажорного наклонения. <a href="#fnref:major_scale" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:major_scale:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:major_scale:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:diatonic_scale">
+      <p><strong>Diatonic scale</strong> (Диатоническая гамма) — семиступенная гамма, состоящая из 5 тонов и 2 полутонов. <a href="#fnref:diatonic_scale" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:diatonic_scale:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:diatonic_scale:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:min_2nd">
+      <p><strong>Minor Second</strong> (Малая секунда) — интервал в 1 полутон. <a href="#fnref:min_2nd" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:min_2nd:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:maj_2nd">
+      <p><strong>Major Second</strong> (Большая секунда) — интервал в 2 полутона. <a href="#fnref:maj_2nd" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:maj_2nd:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:min_3rd">
+      <p><strong>Minor Third</strong> (Малая терция) — интервал в 3 полутона. <a href="#fnref:min_3rd" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:maj_3rd">
+      <p><strong>Major Third</strong> (Большая терция) — интервал в 4 полутона. <a href="#fnref:maj_3rd" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:p4">
+      <p><strong>Perfect Fourth</strong> (Чистая кварта) — интервал в 5 полутонов. <a href="#fnref:p4" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:p4:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:aug4">
+      <p><strong>Augmented Fourth</strong> (Увеличенная кварта) — интервал в 6 полутонов, он же тритон. <a href="#fnref:aug4" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:aug4:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:aug4:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:p5">
+      <p><strong>Perfect Fifth</strong> (Чистая квинта) — интервал в 7 полутонов. <a href="#fnref:p5" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:p5:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:perfect">
+      <p><strong>Perfect</strong> (Чистый/Совершенный) — качество интервалов (кварта, квинта, октава), характеризующихся наибольшим слиянием звуков. <a href="#fnref:perfect" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:perfect:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:perfect:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:tritone">
+      <p><strong>Tritone</strong> (Тритон) — интервал в три целых тона, известный своей диссонантностью. <a href="#fnref:tritone" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:tritone:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:d5">
+      <p><strong>Diminished fifth</strong> (Уменьшенная квинта) — интервал в 6 полутонов, энгармонически равен тритону. <a href="#fnref:d5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:pythagorean_scale">
+      <p><strong>Pythagorean scale</strong> (Пифагорейская гамма) — гамма, построенная на основе чистых квинт (соотношение 3:2). <a href="#fnref:pythagorean_scale" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:pythagorean_scale:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:pythagorean_comma">
+      <p><strong>Pythagorean comma</strong> (Пифагорова комма) — микроинтервал, разница между 12 чистыми квинтами и 7 октавами. <a href="#fnref:pythagorean_comma" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:consonance">
+      <p><strong>Consonance</strong> (Консонанс) — благозвучное, устойчивое сочетание звуков. <a href="#fnref:consonance" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:consonance:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:consonance:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:dissonance">
+      <p><strong>Dissonance</strong> (Диссонанс) — неблагозвучное, напряженное сочетание звуков, требующее разрешения. <a href="#fnref:dissonance" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:dissonance:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:dissonance:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:complementary_intervals">
+      <p><strong>Complementary intervals</strong> (Дополнительные интервалы) — два интервала, которые в сумме составляют октаву. <a href="#fnref:complementary_intervals" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:interval_dynamics">
+      <p><strong>Interval dynamics</strong> (Динамика интервалов) — система напряжений и разрешений между нотами мелодии, создающая музыкальное движение. <a href="#fnref:interval_dynamics" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:interval_dynamics:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:scale_degrees">
+      <p><strong>Scale degrees</strong> (Ступени гаммы) — порядковый номер ноты в гамме. <a href="#fnref:scale_degrees" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:tonic">
+      <p><strong>Tonic</strong> (Тоника) — первая и главная ступень лада, тональный центр. <a href="#fnref:tonic" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:tonic:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:tonic:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:tonic:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a></p>
+    </li>
+    <li id="fn:dominant">
+      <p><strong>Dominant</strong> (Доминанта) — пятая ступень лада, создающая напряжение, тяготеющее к тонике. <a href="#fnref:dominant" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:leading_tone">
+      <p><strong>Leading tone</strong> (Вводный тон) — седьмая ступень мажора, отстоящая от тоники на полутон и остро тяготеющая к ней. <a href="#fnref:leading_tone" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:tonal_centre">
+      <p><strong>Tonal centre</strong> (Тональный центр) — то же, что и <strong>tonic</strong>. <a href="#fnref:tonal_centre" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:tonal_centre:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:major_interval">
+      <p><strong>Major intervals</strong> (Большие интервалы) — качество интервалов (секунда, терция, секста, септима), которые на полтона шире малых. <a href="#fnref:major_interval" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:minor_interval">
+      <p><strong>Minor intervals</strong> (Малые интервалы) — качество интервалов, которые на полтона уже больших. <a href="#fnref:minor_interval" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</article>
+      </div>
+    </main>
+  </body>
+</html>

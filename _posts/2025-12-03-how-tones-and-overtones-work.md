@@ -236,9 +236,11 @@ Taken together, the fundamental and all the overtones are called the harmonic se
 
 Table 4 below shows the frequencies of the first 15 overtones of Middle C. It's important that you sit down right now and memorize every single number in the "Frequency" column. (No, wait! It's not important.)
 
+![img](./img/3-4.png)
+
 # TABLE 4 Fundamental and First 15 Overtones of the "Middle C" Overtone Series
 
-|Tone /  <br>Overtone|Multiple of Fundamental|Frequency  <br>(Hz)|
+|Tone /Overtone|Multiple of Fundamental|Frequency(Hz)|
 |:-:|:-:|:-:|
 |Fundamental|1 (f)|261.6|
 |1st Overtone|f×2f×2|523.2|
@@ -260,7 +262,6 @@ Table 4 below shows the frequencies of the first 15 overtones of Middle C. It's 
 These are just the first 15 overtones-they continue on and on, ever higher in pitch, ever softer. The next overtone in the series above would be the 16th 16th  overtone, with a frequency 17 times that of the fundamental, or 4,447.2 Hz4,447.2 Hz.
 
 ### 3.2.6
-
 ## Your Brain's Automatic Tone-Processing SKILL
 
 Although you think you only hear Middle C, (the fundamental, at 261.6 Hz ), your brain sort outs all the overtones. Automatically. Without the slightest conscious effort on your part. A miraculous feat of naturally-selected engineering.

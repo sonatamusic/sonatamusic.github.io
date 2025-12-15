@@ -1,17 +1,13 @@
 ---
 layout: post
-title:  "Как работает музыка"
+title:  "What Music REALLY Is, Who Makes It, Where, When, Why"
 date:   2025-01-01 09:04:20 +0300
 categories: jekyll update
 ---
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur  
-
----
-2025-11-05-how-keys-and-modes-work
 
 
-## What Music REALLY Is, Who Makes It, Where, When, Why
+## Как работает музыка
 
 Information is not knowledge. Knowledge is not wisdom. Wisdom is not truth. Truth is not beauty. Beauty is not love. Love is not music. Music is the best. —FRANK ZAPPA
 
