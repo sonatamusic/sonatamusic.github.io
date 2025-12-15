@@ -5,7 +5,20 @@
 layout: home
 title: "DOCS"
 ---
+
+### 
+
+- [📗📗📗 Создание мелодий 1: Contour]({% post_url 2024-12-24-example   %}) 
+- [📗📗📗 List]({% post_url 2024-01-01-list   %}) 
+
+Оглавление How Music REALLY Work 
+Оглавление How Music REALLY Work 
+
+---
+
 ### How Music REALY Works 
+What Music REALLY Is, Who Makes It, Where, When, Why
+- [📘 01 What Music REALLY Is, Who Makes It, Where, When, Why ]({% post_url 2025-01-07-what-who-where-when-why %}) 
 
 - [📘 01 What Music REALLY Is, Who Makes It, Where, When, Why ]({% post_url 2025-01-07-what-who-where-when-why %}) 
 - [📕 03 Как на самом деле работают Tones и Overtones ]({% post_url 2025-03-01-tone   %}) 
@@ -17,7 +30,6 @@ title: "DOCS"
 - [📘 09 Как на самом деле работают Melody и интеграция Melody-Harmony ]({% post_url 2025-09-01-melody %}) 
 
 ---
-- [xx]({% post_url 2024-12-24-example   %}) 
 #### 📚 LIBRARY
 
 
