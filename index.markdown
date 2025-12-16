@@ -10,6 +10,7 @@ title: "DOCS"
 
 - [📗📗📗 Создание мелодий 1: Contour]({% post_url 2024-12-24-example   %}) 
 - [📗📗📗 List]({% post_url 2024-01-01-list   %}) 
+- [📗📗📗 List all ]({% post_url 2024-01-02-list-all   %}) 
 
 Оглавление How Music REALLY Work 
 Оглавление How Music REALLY Work 
